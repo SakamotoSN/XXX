@@ -1,1 +1,5 @@
-touch index.php
+<?php
+
+include_once("code.html");
+
+?>
