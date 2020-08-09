@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Je suis capable</title>
+    <script type="text/javascript">
+    setInterval(changeColor, 500);
+     function changeColor() {
+      var x=document.getElementById("wii");
+      if(x.style.color=="green")
+       x.style.color="red";
+      else if (x.style.color=="red")
+       x.style.color="white";
+      else if (x.style.color=="white")
+       x.style.color="green";
+      else x.style.color="green";
+      repeat(changeColor);
+     }
+    
+      </script>
+<style>
+body {background-color: rgb(0, 0, 0);}
+h1   {color: blue;}
+p   {color: green;}
+div.centre {
+	text-align: center;
+}
+</style>
+</head>
+<body>
+    <div class="centre">
+        <FONT size="6pt"> 
+<h1>Preuve que je peux aller au bout d'un truc :</h1>
+        </FONT>
+<FONT size="15pt"> 
+<p id="wii"><br><br><br><br>Voici la preuve !</p>
+</FONT>
+    </div>
+</body>
+</html>
